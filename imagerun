@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 
 import imageio
 
-frame_a  = tools.imread( 'specklesa0.png' )
-frame_b  = tools.imread( 'specklesa1.png' )
+frame_a  = tools.imread( 'refrenceimage1.jpg' )
+frame_b  = tools.imread( 'testimage1.jpg' )
 
 fig,ax = plt.subplots(1,2,figsize=(12,10))
 #ax[0].imshow(frame_a,cmap=plt.cm.gray)
